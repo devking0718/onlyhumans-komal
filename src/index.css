@@ -1,0 +1,35 @@
+:root {
+  --main-background-color : #021530;
+  --main-content-color : #B6C4CA;
+}
+
+body {
+  background: var(--main-background-color) !important;
+  font-family: normalFont !important;
+  user-select: none;
+}
+
+@font-face {
+  font-family: normalFont;
+  src: url("./assets//fonts/LibreFranklin-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url("./assets/fonts/Oswald-VariableFont_wght.ttf");
+}
+
+.content-color {
+  color: var(--main-content-color) !important;
+}
+
+.section-title {
+  font-size: 72px;
+  font-weight: bold;
+  font-family: titleFont;
+  color: white;
+}
+
+img {
+  pointer-events: none;
+}

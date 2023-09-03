@@ -1,0 +1,173 @@
+/* Header Style start */
+.Header {
+  background: var(--main-background-color);
+  ;
+}
+
+.Header .logo-title {
+  font-size: 34px;
+  font-weight: bold;
+  color: white;
+  font-family: titleFont;
+}
+
+.Header .nav-link {
+  font-size: 20px;
+  color: white;
+  font-family: titleFont;
+}
+
+.Header button {
+  border: none;
+  background: #5d6dfd;
+}
+
+/* Header Style end */
+
+/* Main banner style start */
+.main-banner {
+  background-image: url('./assets//images/bg/main-banner.png');
+  height: 90vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.main-banner-title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: titleFont;
+  color: white;
+}
+
+.main-banner-content {
+  font-size: 20px;
+  color: var(--main-content-color);
+}
+
+.main-banner button {
+  font-family: titleFont;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Main banner style end */
+
+/* Feature Card style start */
+.FeatureCard .card {
+  background: #1A2D47;
+}
+
+.FeatureCard .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: titleFont;
+}
+
+.FeatureCard .card-text {
+  font-size: 20px;
+  color: var(--main-content-color);
+}
+
+.feature-card-list .feature-card-list-item  hr {
+  border-width: 5px;
+  border-color: white;
+  width: 80%;
+  border-radius: 50px;
+  opacity: 1 !important;
+}
+
+.feature-card-list .feature-card-list-item:nth-child(even) {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .feature-card-list .feature-card-list-item:nth-child(even) {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 0px;
+  }
+}
+/* Feature Card style end */
+
+/* Workflow Card style start */
+.WorkflowCard .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: titleFont;
+}
+
+.WorkflowCard .card-content {
+  font-size: 20px;
+  color: var(--main-content-color);
+}
+
+.workflow-card-list-item:nth-child(even) .WorkflowCard .row {
+  flex-direction: row-reverse;
+  text-align: end !important;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .workflow-card-list-item:nth-child(even) .WorkflowCard .row {
+    flex-direction: row-reverse;
+    text-align: center !important;    
+  }
+
+  .WorkflowCard img {
+    width: 180px !important;
+  }
+}
+
+
+
+/* Workflow Card style end */
+
+/* Second banner style start */
+.second-banner {
+  background-image: url('./assets/images/bg/simple.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-banner .banner-title {
+  font-family: titleFont;
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+}
+
+.second-banner button {
+  font-family: titleFont;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Second banner style end */
+
+/* Footer Style start */
+.Footer {
+  background: var(--main-background-color);
+}
+
+.Footer p {
+  font-size: 16px;
+}
+
+.Footer hr {
+  border-color: var(--main-content-color);
+}
+
+.Footer .nav-link {
+  font-size: 20px;
+  color: var(--main-content-color);
+  font-family: titleFont;
+}
+
+/* Footer Style end */
+
+.nav-link:hover {
+  color: var(--main-content-color) !important;
+}
